@@ -1,0 +1,108 @@
+/*
+Theme Name: EQ HOMES
+Theme URI: http://underscores.me/
+Author: Ryan Design
+Author URI: http://ryan-design.com/
+Description: EQ Homes Website
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: eq_homes
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ EQ HOMES is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+.reasons{
+    padding-top:10px;
+}
+.news-thumb{
+    padding-top:0px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+
+span.posted-on{
+display:none !important;
+}
+
+.why-eq h4, .why-eq h5{
+	margin-top:7px;
+}
+.why-eq h3, .why-eq h4{
+	font-family:'Raleway' !important;
+}
+.why-eq p,.why-eq div, .why-eq h6 , .why-eq td{
+   /* font-family: 'Source Sans Pro' !important;
+	letter-spacing:1px;*/
+}
+
+.why-eq div , .why-eq p , .why-eq td {
+	/*font-weight:300;*/
+	line-height:2;
+}
+.why-eq p {
+	padding-bottom:10px;
+}
+.why-eq h3{
+	font-size:46px !important;
+	letter-spacing:4px;
+	padding-bottom:0px;
+}
+.why-eq h5{
+	font-size:15px;
+}
+.why-eq h4{
+	font-size:21px;
+	letter-spacing:1px;
+}
+.why-eq h3, .why-eq h4, .why-eq h5{
+	font-weight:700;
+}
+
+.why-eq .col-lg-4 h4:not(:first-child){
+	margin-top:30px;
+}
+
+
+.why-eq span.list {
+	display:block;
+	background:#000;
+	width:21px;
+	line-height:21px;
+	text-align:center;
+ 	border-radius:20px;
+	color:#fff;
+	margin-right:4px;
+	margin-top:4px;
+}
+.why-eq td{
+	vertical-align:top;
+}
+
+.why-eq table{
+	border-collapse: separate;
+    border-spacing: 12px;
+	margin-top:40px;
+}
+.why-eq .logo_img{
+	margin-top: 20px;
+    height: 70px;
+/*     margin-left: -25px; */
+    margin-bottom: 20px;
+}
+
+    
