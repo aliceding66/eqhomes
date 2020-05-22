@@ -1393,7 +1393,6 @@ pre code {
   .col-lg-offset-0 {
     margin-left: 0%;
   }
-
 }
 table {
   max-width: 100%;
@@ -3952,13 +3951,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #0077bb;
+  color: #acba21;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #0077bb;
+  color: #acba21;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -3993,13 +3992,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #0077bb;
+    color: #acba21;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #0077bb;
+    color: #acba21;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -7551,8 +7550,6 @@ body {
   list-style: none;
   margin: 10px auto;
 }
-.bottom .socialmedia .social .twitter,
-.bottom .socialmedia .social .instagram,
 .bottom .socialmedia .social .facebook,
 .bottom .socialmedia .social .pinterest,
 .bottom .socialmedia .social .youtubei,
@@ -7568,22 +7565,6 @@ body {
 .bottom .socialmedia .social .facebook:hover {
   background-image: url(../images/facebook-over.png);
 }
-
-.bottom .socialmedia .social .instagram {
-  background-image: url(../images/instagram.png);
-}
-.bottom .socialmedia .social .instagram:hover {
-  background-image: url(../images/instagram-over.png);
-}
-
-.bottom .socialmedia .social .twitter {
-  background-image: url(../images/twitter.png);
-}
-.bottom .socialmedia .social .twitter:hover {
-  background-image: url(../images/twitter-over.png);
-}
-
-
 .bottom .socialmedia .social .pinterest {
   background-image: url(../images/pinterest.png);
 }
@@ -7674,8 +7655,7 @@ body {
   padding: 15px;
 }
 .affix.top {
-	background: rgba(84, 86, 90, 1);
-  /*background: rgba(0, 0, 0, 0.9);*/
+  background: rgba(0, 0, 0, 0.9);
 }
 .form-control {
   border-radius: 0px;
@@ -7840,8 +7820,7 @@ h6 {
 }
 #header,
 .top {
-	background: rgba(84, 86, 90, 1);
-  /*background: rgba(0, 0, 0, 0.8);*/
+  background: rgba(0, 0, 0, 0.8);
   z-index: 10000;
 }
 @media (min-width: 992px) {
@@ -7918,20 +7897,14 @@ h6 {
   background: #acba21;
 }
 .communities li.csoon {
-  background-image: url(../images/coming-soon-2019.jpg);
+  background: none;
+  background-image: url(../images/coming-soon.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 .communities li:hover a {
   color: #ffffff;
 }
-
-.communities li.csoon:hover a {
-  color: black;
-}
-
-
 .communities li span {
   display: block;
   font-weight: normal;
